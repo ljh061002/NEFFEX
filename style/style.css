@@ -27,6 +27,20 @@ a {
     text-align: center;
     vertical-align: top;
 }
+.menu_wrap .menu a {
+    display: block;
+    padding: 10px 0;
+}
+.menu_wrap .menu a:hover {
+    background: #325cb2;
+    color: #fff;
+}
+.menu_wrap .menu > li:hover > sub_m {
+    display: block;
+}
+.menu_wrap .sub_m {
+    display: none;
+}
 
 .menu_wrap .menu a {
     display: block;
@@ -44,8 +58,7 @@ a {
     display: none;
 }
 
-ul,
-li {
+ul,li {
     list-style: none;
 
 }
